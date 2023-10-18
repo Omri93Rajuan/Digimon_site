@@ -8,7 +8,6 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <Main>{children}</Main>
-      <h1>לילה טוב</h1>
       <Footer />
     </>
   );

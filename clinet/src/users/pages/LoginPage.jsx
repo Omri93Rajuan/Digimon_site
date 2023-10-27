@@ -1,5 +1,5 @@
 import React from "react";
-// import { Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import ROUTES from "../../routes/routesModel";
 import { useUser } from "../providers/UserProvider";
 import useUsers from "../hooks/useUsers";
@@ -19,8 +19,8 @@ const LoginPage = () => {
     loginSchema,
     handleLogin
   );
-
-  // if (user) return <Navigate replace to={ROUTES.CARDS} />;
+console.log(user);
+  if (user) return <Navigate replace to={ROUTES.ROOT} />;
 
   return (
     <Container

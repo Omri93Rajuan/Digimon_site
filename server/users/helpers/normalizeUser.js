@@ -15,10 +15,6 @@ const normalizeUser = (rawUser,userId) => {
       middle :rawUser.name.middle || "",
     },
     image,
-    address: {
-      ...rawUser.address,
-      state: rawUser.address.state || "",
-    },
     isAdmin: rawUser.isAdmin || false,
     user_id: rawUser.user_id || userId,
   };

@@ -36,15 +36,6 @@ const UserForm = (
         sm={6}
       />
       <Input
-        name="middle"
-        label="שם חברה"
-        error={errors.middle}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-        required={false}
-      />
-      <Input
         name="last"
         label="שם משפחה"
         error={errors.last}
@@ -84,57 +75,6 @@ const UserForm = (
         name="alt"
         label="פירוט תמונה"
         error={errors.alt}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-        required={false}
-      />
-      <Input
-        name="state"
-        label="מחוז - לא חובה"
-        error={errors.state}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-        required={false}
-      />
-      <Input
-        label="מדינה"
-        name="country"
-        error={errors.country}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-      />
-      <Input
-        name="city"
-        label="עיר"
-        error={errors.city}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-      />
-      <Input
-        name="street"
-        label="רחוב"
-        error={errors.street}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-      />
-      <Input
-        name="houseNumber"
-        label="מספר בית"
-        type="number"
-        error={errors.houseNumber}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-      />
-      <Input
-        name="zip"
-        label="מיקוד - לא חובה"
-        error={errors.zip}
         onChange={onInputChange}
         data={data}
         sm={6}

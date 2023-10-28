@@ -5,11 +5,6 @@ const Name = require("./Name");
 
 const schema = new mongoose.Schema({
   name: Name,
-  phone: {
-    type: String,
-    required: true,
-    match: RegExp(/0[0-9]{1,2}\-?\s?[0-9]{3}\s?[0-9]{4}/),
-  },
   email: {
     type: String,
     required: true,
@@ -24,7 +19,6 @@ const schema = new mongoose.Schema({
     trim: true,
   },
   image: Image,
-  address: Address,
   isAdmin: { type: Boolean, default: false },
   isBusiness: { type: Boolean, default: false },
   createdAt: {

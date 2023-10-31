@@ -13,6 +13,7 @@ const FormButton = ({
 }) => {
   return (
     <Button
+    sx={{backgroundColor:'#EBC55A',fontFamily: "'Secular One', sans-serif"}}
       variant={variant}
       component={component}
       size={size}
@@ -21,6 +22,7 @@ const FormButton = ({
       disabled={disabled}
       fullWidth>
       {node}
+      
     </Button>
   );
 };

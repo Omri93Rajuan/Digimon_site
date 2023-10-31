@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -5,7 +6,6 @@ import Avatar from "@mui/material/Avatar";
 import { useMenu } from "../../menu/MenuProvider";
 import useUsers from "../../../../users/hooks/useUsers";
 import mapUserToModel from "../../../../users/helpers/normalization/mapUserToModel";
-import Typography from '@mui/material/Typography'
 import NavItem from "../../../../routes/components/NavItem";
 import ROUTES from "../../../../routes/routesModel";
 

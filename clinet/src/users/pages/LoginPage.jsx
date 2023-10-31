@@ -19,7 +19,6 @@ const LoginPage = () => {
     loginSchema,
     handleLogin
   );
-console.log(user);
   if (user) return <Navigate replace to={ROUTES.ROOT} />;
 
   return (

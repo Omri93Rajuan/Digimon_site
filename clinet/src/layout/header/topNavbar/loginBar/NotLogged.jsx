@@ -10,7 +10,7 @@ const NotLogged = () => {
   return (
     <Box>
       <NavItem label="הרשמה" to={ROUTES.SIGNUP} />
-      <NavItem label="כניסה לאזור האישי" to={ROUTES.LOGIN} />
+      <NavItem label="כניסה" to={ROUTES.LOGIN} />
     </Box>
   );
 };

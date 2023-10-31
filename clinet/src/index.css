@@ -14,4 +14,16 @@ center{
 
 cursor{
   cursor: pointer;
+  
+}
+.cool{
+  filter: grayscale(100%);
+}
+.cool:hover{
+  filter: none;
+  transition: 1s ease;
+  transform: scale(1.1);
+
+
+  
 }

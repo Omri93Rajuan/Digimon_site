@@ -6,7 +6,10 @@ const ROUTES = {
     MOVIE: "/moviePage",
     GAME: "/gamePage",
     LOGIN:'/loginPage',
-    SIGNUP:'/signupPage'
+    SIGNUP:'/signupPage',
+    DIGIMON: '/digimonPage',
+    DIGIVICE:'/digivicePage',
+    DIGIDESTINED:'/digidestinedPage'
  
   };
   

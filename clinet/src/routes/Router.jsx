@@ -8,6 +8,10 @@ import MoviePage from "../pages/movie/MoviePage";
 import GamePage from "../pages/game/GamePage";
 import LoginPage from "../users/pages/LoginPage";
 import SignupPage from "../users/pages/SignupPage";
+import DigimonData from "../pages/details/dataPages/DigimonData";
+import DigiviceData from "../pages/details/dataPages/DigiviceData";
+import DigiDestinedData from "../pages/details/dataPages/DigiDestinedData";
+
 
 
 const Router = () => {
@@ -21,6 +25,9 @@ const Router = () => {
       <Route path={"gamePage"} element={<GamePage />} />
       <Route path={"loginPage"} element={<LoginPage />} />
       <Route path={"signupPage"} element={<SignupPage />} />
+      <Route path={"digimonPage"} element={<DigimonData />} />
+      <Route path={"digivicePage"} element={<DigiviceData />} />
+      <Route path={"digidestinedPage"} element={<DigiDestinedData />} />
 
 
 

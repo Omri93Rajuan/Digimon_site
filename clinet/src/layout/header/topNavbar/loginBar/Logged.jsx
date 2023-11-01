@@ -26,11 +26,11 @@ const Logged = () => {
   return (
     <Tooltip title="Open settings">
       <IconButton
-        sx={{ p: 0, display: "inline-flex", marginLeft: 2 }}
+        sx={{ p: 0, display: "inline-flex", marginLeft: 2, color:'white'}}
         onClick={() => setOpen(true)}
       >
         <Avatar sx={{ width: 56, height: 56 }} alt="Bird" src={userData.url} />
-        <NavItem label={`שלום ${userData.first}`} to={ROUTES.ROOT}/>
+        שלום {userData.first}
       </IconButton>
     </Tooltip>
   );

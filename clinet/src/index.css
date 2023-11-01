@@ -6,13 +6,13 @@ font-family: "'Secular One', sans-serif";
 direction: rtl;
 }
 
-center{
+.center{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-cursor{
+.cursor{
   cursor: pointer;
   
 }

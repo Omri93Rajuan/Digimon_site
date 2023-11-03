@@ -44,15 +44,6 @@ const UserForm = (
         sm={6}
       />
       <Input
-        name="phone"
-        label="טלפון"
-        type="phone"
-        error={errors.phone}
-        onChange={onInputChange}
-        data={data}
-        sm={6}
-      />
-      <Input
         name="email"
         label={`דוא"ל`}
         type="email"

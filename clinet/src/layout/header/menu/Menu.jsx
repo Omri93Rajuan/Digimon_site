@@ -86,7 +86,7 @@ const Menu = ({ isOpen, anchorEl, onClose }) => {
             />
             <MenuLink
               text="עריכת משתמש"
-              navigateTo={ROUTES.ROOT}
+              navigateTo={ROUTES.EDIT}
               onClick={onClose}
             />
 

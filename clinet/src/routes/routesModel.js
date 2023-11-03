@@ -7,6 +7,7 @@ const ROUTES = {
     GAME: "/gamePage",
     LOGIN:'/loginPage',
     SIGNUP:'/signupPage',
+    EDIT:'/editUserPage',
     DIGIMON: '/digimonPage',
     DIGIVICE:'/digivicePage',
     DIGIDESTINED:'/digidestinedPage'

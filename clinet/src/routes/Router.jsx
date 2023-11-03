@@ -7,6 +7,7 @@ import AnimePage from "../pages/anime/AnimePage";
 import MoviePage from "../pages/movie/MoviePage";
 import GamePage from "../pages/game/GamePage";
 import LoginPage from "../users/pages/LoginPage";
+import EditUserPage from "../users/pages/EditUserPage";
 import SignupPage from "../users/pages/SignupPage";
 import DigimonData from "../pages/details/dataPages/DigimonData";
 import DigiviceData from "../pages/details/dataPages/DigiviceData";
@@ -24,10 +25,13 @@ const Router = () => {
       <Route path={"moviePage"} element={<MoviePage />} />
       <Route path={"gamePage"} element={<GamePage />} />
       <Route path={"loginPage"} element={<LoginPage />} />
+      <Route path={"editUserPage"} element={<EditUserPage />} />
       <Route path={"signupPage"} element={<SignupPage />} />
       <Route path={"digimonPage"} element={<DigimonData />} />
       <Route path={"digivicePage"} element={<DigiviceData />} />
       <Route path={"digidestinedPage"} element={<DigiDestinedData />} />
+
+      
 
 
 

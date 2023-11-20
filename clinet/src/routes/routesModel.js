@@ -8,6 +8,7 @@ const ROUTES = {
     LOGIN:'/loginPage',
     SIGNUP:'/signupPage',
     EDIT:'/editUserPage',
+    PROFILE:'/profileUserPage',
     DIGIMON: '/digimonPage',
     DIGIVICE:'/digivicePage',
     DIGIDESTINED:'/digidestinedPage'

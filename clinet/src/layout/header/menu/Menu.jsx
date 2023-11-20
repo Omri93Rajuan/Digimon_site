@@ -81,7 +81,7 @@ const Menu = ({ isOpen, anchorEl, onClose }) => {
           <>
             <MenuLink
               text="פרטים אישיים"
-              navigateTo={ROUTES.ROOT}
+              navigateTo={ROUTES.PROFILE}
               onClick={onClose}
             />
             <MenuLink
